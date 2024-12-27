@@ -18,7 +18,11 @@ This project aims to analyze the sentiment of chat support conversations. By lev
     ```sh
     cd chat-support-sentiment-analysis
     ```
-
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+    
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
