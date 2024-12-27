@@ -18,9 +18,26 @@ This project aims to analyze the sentiment of chat support conversations. By lev
     ```sh
     cd chat-support-sentiment-analysis
     ```
-3. Install the required dependencies:
+3. Create a `data` directory and download the dataset from [Kaggle](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset). Place the dataset inside the `data` directory.
+    ```sh
+    mkdir data
+    # Download the dataset from Kaggle and place it inside the data directory
+    ```
+4. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
+    ```
+5. Train the model by running `model.py`. The trained model will be saved in the `trained_model` directory.
+    ```sh
+    python model.py
+    ```
+6. Test the model by running `predict.py`.
+    ```sh
+    python predict.py
+    ```
+7. Run the Flask application by executing `app.py`.
+    ```sh
+    python app.py
     ```
     
 ## Contributing
